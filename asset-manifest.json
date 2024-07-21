@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/protovatorApp/static/css/main.5f3cde4b.css",
+    "main.js": "/protovatorApp/static/js/main.9b744eb0.js",
+    "static/js/453.ed3810f9.chunk.js": "/protovatorApp/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/protovatorApp/index.html",
+    "main.5f3cde4b.css.map": "/protovatorApp/static/css/main.5f3cde4b.css.map",
+    "main.9b744eb0.js.map": "/protovatorApp/static/js/main.9b744eb0.js.map",
+    "453.ed3810f9.chunk.js.map": "/protovatorApp/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f3cde4b.css",
+    "static/js/main.9b744eb0.js"
+  ]
+}
