@@ -1,0 +1,83 @@
+#GoalComponent{
+    background-color: rgb(227, 227, 248);
+    
+}
+#MainGoal{
+    border: 15px solid rgb(202, 162, 162);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color:whitesmoke;
+    border-width: 10px;
+
+}
+#GoalInput{
+    margin-top:1vh;
+    margin-left: 1vw;
+    padding: 1vh;
+    border-radius: 5px;
+    border-bottom-color:Red;
+
+}
+#DateContainer{
+    display: flex;
+
+}
+#DateName{
+    display: inline;
+    padding-left: 10px;
+}
+#Date{
+    display: inline;
+    height: 4vh;
+    
+    margin-left: 10px;
+    align-self: center;
+}
+#Skills{
+    color: rgb(243, 18, 18);
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+    top:0.5vh;
+    font-size: larger;
+
+
+}
+#SkillText{
+    display: inline;
+    position: relative;
+    left: 9px;
+}
+#GoalButton{
+    padding:1vh 4vw 1vh 4vw;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+    align-self: center;
+    margin-bottom: 1vh;
+    
+  
+}
+#SkillPopup{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+#SkillsAddedIndicator{
+    position: absolute;
+    left: 20%;
+}
+@media screen and (max-width:768px){
+
+    #SkillsAddedIndicator{
+    position: absolute;
+    left: 70%;
+    }
+}

@@ -1,0 +1,88 @@
+#MainTaskInput{
+    margin-top: 2vh;
+    margin-left: 2vw;
+    padding: 10px;
+    width: 50vw;
+    border-radius: 12px;
+
+}
+#MainTaskAddIcon{
+    
+    color: white;
+    margin-top: px;
+    height: 20px;
+
+}
+#MainTaskButton{
+    color: aliceblue;
+    background-color: blue;
+    font-weight: bolder;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    margin-top: 4vh;
+    margin-left: 2vh;
+}
+@media screen  and (max-width:768px){
+    #MainTaskButton{
+        color: aliceblue;
+        background-color: blue;
+        font-weight: bolder;
+        width: 70px;
+        height: 30px;
+        border-radius: 7px;
+        margin-top: 4vh;
+        margin-left: 2vh;
+    }
+    
+}
+
+#MainTasks{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.Task{
+   
+    padding: 20px;
+    border: 0.5px dotted black;
+    color:rgb(131, 6, 131);
+    background-color:  #f5f5f5;;
+    margin-top: 4px;
+    margin-right: 5px;
+    font-weight: bolder;    
+    user-select: none;/*This line to avoid Highlight text on select*/
+}
+.Task:hover{
+    cursor:pointer;
+    border: 2px solid yellow;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius: 20px;
+
+}
+.Task:nth-child(even){
+    background-color: #E6F2FF;
+    
+}
+/*.Task:nth-child(5n){
+    background-color: #dff0d8;
+    color: rgb(105, 75, 36);
+
+}*/
+#TotalTask{
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+   
+}
+#UserGuide{
+    cursor: pointer;
+}
+#UserGuide:hover{
+    color: red;
+}

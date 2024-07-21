@@ -1,0 +1,28 @@
+.total-net-worth-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .net-worth-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .component-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #343a40;
+  }
+  
+  .total-transactions {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #28a745;
+  }
+  

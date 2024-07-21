@@ -1,0 +1,32 @@
+#AgreementContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 95vw;
+    
+}
+#AgreementHead{
+    align-self: center;
+    color: green;
+    width: fit-content;
+    text-decoration:underline;
+
+}
+#AgreementContent{
+    color: blue;
+    border: 1px solid red;
+    margin: 2%;
+    align-self: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#AcceptButton{
+    max-width: fit-content;
+    align-self: center;
+    padding: 1vw;
+    background-color: green;
+    color: bisque;
+    font-weight: bolder;
+    cursor: pointer;
+
+}

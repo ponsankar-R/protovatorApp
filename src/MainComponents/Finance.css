@@ -1,0 +1,79 @@
+#FinanceDashboard{ 
+    background-color: rgb(255, 255, 254);
+    height: 100%;
+    
+}
+#DashboardGreet{
+    font-size: larger;
+    user-select: none;
+}
+#FinComponents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.DashboardComponents{
+    margin: 2%;
+    border: 1px solid black;
+    width:22vw;
+    padding:5%;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width:768px) {
+    #DashboardGreet{
+        font-size: smaller;
+    }
+    
+.DashboardComponents{
+    margin: 2%;
+    border: 1px solid black;
+    width:40vw;
+    padding:5%;
+    user-select: none; /*avoid highlighting */
+}
+}
+
+
+  /* Specific colors for different components */
+  #TotalNetWorth {
+    background-color: #b3e0ff; /* Light blue */
+  }
+  
+  #TaskBudget {
+    background-color: #b3ffb3; 
+    position: relative;/* Light green */
+  }
+  
+  #MonthlyBudget {
+    background-color: #ffcc99; /* Light orange */
+  }
+  
+  #MonthlyBudgetHistory {
+    background-color: #ff99cc; /* Light pink */
+  }
+  
+  #YearlyBudget {
+    background-color: #ffb3b3; /* Light red */
+  }
+  
+  #YearlyBudgetHistory {
+    background-color: #ccccff; /* Light purple */
+  }
+
+#FinBack{
+    position:fixed;
+    right:2%;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #CCCCCC;
+    color: black;
+}
+#FinBack:hover{
+  background-color: #AAAAAA; 
+}

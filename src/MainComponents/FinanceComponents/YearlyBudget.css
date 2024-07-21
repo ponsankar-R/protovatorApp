@@ -1,0 +1,142 @@
+/* YearlyBudget.css */
+
+/* Main component section */
+#YearlyBudgetComponent {
+    margin-top: 5vh;
+    margin-left: 5vw;
+  }
+  
+  /* Inputs section */
+  #YearlyBudgetInputs {
+    border: 1px solid black;
+    max-width: fit-content;
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 5vh;
+  }
+  
+  /* Transaction Name input */
+  #YearTransName {
+    display: block;
+  }
+  
+  /* Amount input */
+  #YearTransAmount {
+    display: block;
+  }
+  
+  /* Labels for inputs */
+  #YearTransNLabel,
+  #YearTransALabel {
+    max-height: fit-content;
+    margin-top: 10px;
+  }
+  
+  /* Radio buttons section */
+  #YearRadioButtons {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: small;
+  }
+  
+  /* Add button section */
+  #YearAddBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+  }
+  
+  /* Add button styling */
+  #YearAddButton {
+    border-radius: 7px;
+    background-color: blue;
+    color: bisque;
+    font-weight: bold;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    cursor: pointer;
+  }
+  
+  /* Total section */
+  #YearTransTotal {
+    background-color: rgb(206, 118, 118);
+    text-align: center;
+    margin-top: 2vh;
+    padding: 1%;
+    border-radius: 5px;
+  }
+  
+  /* Stored transactions section */
+  #StoredYearlyTransactions {
+    margin-top: 3vh;
+  }
+  
+  /* Transaction container */
+  .YearTransContainer {
+    border: 1px solid black;
+    padding: 1%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+  }
+  
+  /* Transaction name */
+  .YearTransName {
+    width: 30%;
+    width: clamp(29%, 30%, 30%);
+  }
+  
+  /* Income amount */
+  .YearTransIncAmount {
+    color: blue;
+    font-weight: bold;
+    width: 25%;
+  }
+  
+  /* Expense amount */
+  .YearTransExpAmount {
+    color: red;
+    width: 25%;
+    font-weight: bold;
+  }
+  
+  /* Income label */
+  .YearTransInc {
+    color: rgb(40, 182, 40);
+    font-weight: bold;
+    width: 15%;
+    overflow: hidden;
+  }
+  
+  /* Expense label */
+  .YearTransExp {
+    color: red;
+    font-weight: bold;
+    width: 15%;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media screen and (max-width: 768px) {
+    .YearTransName {
+      font-weight: bold;
+      font-size: 0.7rem;
+    }
+  
+    .YearTransIncAmount,
+    .YearTransExpAmount {
+      width: 15%;
+      font-size: 0.7rem;
+    }
+  
+    .YearTransInc,
+    .YearTransExp {
+      font-size: 0.7rem;
+    }
+  
+    .YearTransDelete {
+      width: 10%;
+    }
+  }
+  

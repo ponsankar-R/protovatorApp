@@ -1,0 +1,115 @@
+#FinBack{
+    top:12vh;
+}
+#MonthlyBudgetInputs{
+   margin-top: 5vh;
+   margin-left: 5vw;
+   border: 1px solid black;
+   max-width: fit-content;
+   padding: 2%;
+   border-radius: 10px;
+}
+#MonthTransName{
+   
+    display: block;
+}
+#MonthTransAmount{
+   display: block;
+}
+#MonthTransNLabel{
+    max-height: fit-content;
+    margin-top:10px ;
+
+}
+#MonthTransALabel{
+    max-height: fit-content;
+    margin-top: 10px;
+
+}
+#MonthRadioButtons{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+  font-size: small;
+}
+#MonthAddBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+}
+#MonthAddButton{
+    border-radius: 7px;
+    background-color: blue;
+    color: bisque;
+    font-weight: bolder;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    cursor: pointer;
+}
+.TransContainer{
+    border: 1px solid black;
+    padding: 1%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+.TransName{
+    width:30%;
+    width: clamp(29%,30%,30%);
+}
+.TransIncAmount{
+    color: blue;
+    font-weight: bolder;
+    width: 25%;
+    
+}
+.TransExpAmount{
+    color: red;
+    width: 25%;
+    font-weight: bolder;
+
+}
+.TransInc{
+    color: rgb(40, 182, 40);
+    font-weight: bolder;
+    width: 15%;
+    overflow: hidden;
+}
+.TransExp{
+    color: red;
+    font-weight: bolder;
+    width: 15%;
+}
+@media screen  and (max-width:768px){
+    
+    .TransName{
+        font-weight: bold;
+        font-size:0.7rem;
+    }
+    .TransIncAmount{
+        width: 15%;
+        font-size: 0.7rem;
+
+        
+    }
+    .TransExpAmount{
+        font-size: 0.7rem;
+        width: 15%;
+    
+    }
+    .TransInc{
+      font-size: 0.7rem;
+    }
+    .TransExp{
+        font-size: 0.7rem;
+    }
+    .TransDelete{
+        width: 10%;
+    }
+
+}
+#MonthTransTotal{
+    background-color: rgb(206, 118, 118);
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+#SkillContainer{
+    height: 25vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(250, 98, 98);
+    padding: 20px;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 116);
+
+}
+
+#cancel{
+    width: 25px;
+    text-align: center;
+    background-color: red;
+    color: blanchedalmond;
+    font-weight: bolder;
+    cursor: pointer;
+    align-self: flex-end;
+    position: relative;
+    bottom: 1vh;
+    border-radius: 20px;
+}
+#AddSkills{
+    background-color: green;
+    color: blanchedalmond;
+    font-weight: bolder;
+    font-size: large;
+    position: relative;
+    top:1vh;
+    cursor: pointer;
+}
+.Skill{
+    margin-top: 2px;
+}

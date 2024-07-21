@@ -1,0 +1,61 @@
+#NavContainer{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#NavLinks{
+    display: flex;
+    list-style-type: none; 
+
+}
+.activeNavItem{
+    padding: 10px;
+    border-right:2px solid red;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+#NavCompletedTask{
+    padding: 10px;
+    margin-left: 20vw;
+    
+
+}
+#NavGoals{
+    padding: 10px;
+    margin-left: 20vw;
+
+}
+#NavFinance{
+    padding: 10px;
+    margin-left: 20vw;
+
+}
+@media screen and (max-width:768px) {
+    #NavContainer{
+        justify-content: center;
+    }
+    #NavHome{
+        padding-left:0;
+
+        
+    
+    }
+    #NavCompletedTask{
+        
+        margin-left:14vw;
+    
+    }
+    #NavGoals{
+        
+        margin-left:10vw;
+    
+    }
+    #NavFinance{
+        margin-left:10vw;
+    
+    }
+    
+}

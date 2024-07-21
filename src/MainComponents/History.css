@@ -1,0 +1,75 @@
+.HistoryItem{
+    
+    color: rgb(134, 74, 74);
+    border: 1px dashed black;
+    padding:10px;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#HistoryIcons{
+    color: black;
+  
+}
+#HistoryUndo{
+    padding-right: 10px;
+    padding-left: 10px;
+    color: rgb(32, 78, 32);
+    cursor: pointer;
+}
+#HistoryUndo:hover{
+    color: blue;
+}
+#HistoryDelete:hover{
+    color: black;
+}
+#HistoryDelete{
+    color: red;
+    cursor: pointer;
+}
+
+#TopicContainer{
+
+    background-color: #913831;
+    color: beige;
+    display: flex;
+    justify-content: space-between;
+}
+#Topic{
+   
+    display: inline;
+    padding-left: 20px;
+    
+}
+
+#HistoryCount{
+    display: inline;
+    padding-right: 20px;
+}
+
+@media screen and (max-width:768px){
+    #TopicContainer{
+
+        background-color: #913831;
+        color: beige;
+        display: flex;
+        justify-content: space-between;
+    }
+    #Topic{
+        display: inline;
+        padding-left:10px;
+        font-size: small;
+
+    }
+    
+    #HistoryCount{
+        display: inline;
+        padding-right: 10px;
+        font-size: small;
+    }
+    
+}
